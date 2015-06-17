@@ -16,9 +16,9 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  bundler (~> 1.5)
+  bundler (~> 1.10, >= 1.10.4)
   mvn2-say!
-  rake (~> 10.0)
+  rake (~> 10.4)
 
 BUNDLED WITH
    1.10.4
