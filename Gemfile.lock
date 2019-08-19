@@ -1,24 +1,24 @@
 PATH
   remote: .
   specs:
-    mvn2-say (1.1.0)
-      everyday-plugins (~> 1.2)
+    mvn2-say (1.1.1)
+      everyday-plugins (~> 1.2, >= 1.2.2)
 
 GEM
   remote: https://rubygems.org/
   specs:
-    everyday-cli-utils (1.8.2)
-    everyday-plugins (1.2.0)
-      everyday-cli-utils (~> 1.7)
-    rake (10.4.2)
+    everyday-cli-utils (1.8.7.2)
+    everyday-plugins (1.2.2)
+      everyday-cli-utils (~> 1.8, >= 1.8.7.2)
+    rake (12.3.3)
 
 PLATFORMS
   ruby
 
 DEPENDENCIES
-  bundler (~> 1.10, >= 1.10.4)
+  bundler (~> 2.0)
   mvn2-say!
-  rake (~> 10.4)
+  rake (~> 12.3)
 
 BUNDLED WITH
-   1.10.4
+   2.0.2
